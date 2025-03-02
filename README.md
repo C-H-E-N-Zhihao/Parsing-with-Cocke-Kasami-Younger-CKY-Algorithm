@@ -72,16 +72,6 @@ To use CKY, grammars must be in **Chomsky Normal Form (CNF)**. The conversion in
 - Stores probabilities of different parse trees.
 - Uses **dynamic programming** to keep track of the most probable parse.
 
-## Testing
-To test the implementation:
-```sh
-python main.py --test
-```
-This will:
-- Load predefined grammars.
-- Parse test sentences.
-- Compare outputs against expected results.
-
 ## Future Improvements
 - Implement a **user interface** for interactive parsing.
 - Optimize performance for large grammars.
